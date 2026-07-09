@@ -1,0 +1,72 @@
+mode=old seeds=[17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+config: {"T": 5000, "K_episodes": 20, "tau_alpha": 1.7, "noise_std": 0.3, "probe_horizon": 50, "sigma_probe": 0.01, "noise_std_prior": 0.4, "M_fw": 400, "fw_sampling": "uniform", "beta_explore_scale": 1.0, "beta_finite_horizon_ce": false, "ridge_lambda": 0.0, "paper_interval_weights": false, "exclusive_moments": false, "lmo_start_state_cov": false, "robust_lmo": false, "s_tol": -1e-09, "naive_explore_scale": 0.1, "samp_n_candidates": 30, "samp_sigma": 0.1}
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:561: RuntimeWarning: overflow encountered in add
+  X_arr = 0.5 * (X_arr + np.swapaxes(X_arr, -1, -2))
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:565: RuntimeWarning: overflow encountered in add
+  else:
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:558: RuntimeWarning: invalid value encountered in matmul
+  for j in range(M_steps):
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:559: RuntimeWarning: invalid value encountered in matmul
+  if L > 1:
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:564: RuntimeWarning: invalid value encountered in matmul
+  Inv_stack = 0.5 * (Inv_stack + np.swapaxes(Inv_stack, -1, -2))
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:564: RuntimeWarning: overflow encountered in matmul
+  Inv_stack = 0.5 * (Inv_stack + np.swapaxes(Inv_stack, -1, -2))
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:576: RuntimeWarning: invalid value encountered in matmul
+  for X, S in zip(X_current, S_list)]
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:537: RuntimeWarning: overflow encountered in add
+  # =============================================================================
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:534: RuntimeWarning: invalid value encountered in matmul
+  return 0.5 * (M_seq + np.swapaxes(M_seq, -1, -2))
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:528: RuntimeWarning: invalid value encountered in matmul
+  tau_m_arr = tau[m_idx]
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:529: RuntimeWarning: invalid value encountered in matmul
+  if cfg.exclusive_moments:
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:561: RuntimeWarning: invalid value encountered in add
+  X_arr = 0.5 * (X_arr + np.swapaxes(X_arr, -1, -2))
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:587: RuntimeWarning: overflow encountered in add
+  
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:565: RuntimeWarning: overflow encountered in add
+  
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:558: RuntimeWarning: invalid value encountered in matmul
+  else:
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:559: RuntimeWarning: invalid value encountered in matmul
+  delta = int(tau_rel[mm]) - int(tau_rel[mm - 1])
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:564: RuntimeWarning: invalid value encountered in matmul
+  return vals
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:561: RuntimeWarning: overflow encountered in add
+  inside = 0.5 * (inside + inside.T)
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:564: RuntimeWarning: overflow encountered in matmul
+  return vals
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:561: RuntimeWarning: invalid value encountered in add
+  inside = 0.5 * (inside + inside.T)
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:564: RuntimeWarning: overflow encountered in matmul
+  return vals
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:558: RuntimeWarning: invalid value encountered in matmul
+  else:
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:559: RuntimeWarning: invalid value encountered in matmul
+  delta = int(tau_rel[mm]) - int(tau_rel[mm - 1])
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:564: RuntimeWarning: invalid value encountered in matmul
+  return vals
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:564: RuntimeWarning: overflow encountered in matmul
+  return vals
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:558: RuntimeWarning: invalid value encountered in matmul
+  else:
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:559: RuntimeWarning: invalid value encountered in matmul
+  delta = int(tau_rel[mm]) - int(tau_rel[mm - 1])
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:564: RuntimeWarning: invalid value encountered in matmul
+  return vals
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:565: RuntimeWarning: overflow encountered in add
+  else:
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:576: RuntimeWarning: invalid value encountered in matmul
+  for X, S in zip(X_current, S_list)]
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:564: RuntimeWarning: invalid value encountered in matmul
+  Inv_stack = 0.5 * (Inv_stack + np.swapaxes(Inv_stack, -1, -2))
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:564: RuntimeWarning: overflow encountered in matmul
+  Inv_stack = 0.5 * (Inv_stack + np.swapaxes(Inv_stack, -1, -2))
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:558: RuntimeWarning: invalid value encountered in matmul
+  for j in range(M_steps):
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:559: RuntimeWarning: invalid value encountered in matmul
+  if L > 1:
+/Users/brucelee/overleaf_docs/frankwolfelqr/experiments/claude/expc_core.py:561: RuntimeWarning: overflow encountered in add
+  X_arr = 0.5 * (X_arr + np.swapaxes(X_arr, -1, -2))
