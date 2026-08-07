@@ -69,43 +69,16 @@ Running the complete notebooks generates the following TikZ/PGFPlots files:
 | C | `tikz_figures/experiment_c_cumulative_regret.tex` |
 
 
-## Implementation Notes
-
-- The LMO combines a generalized finite-horizon Riccati recursion with a
-  scalar search for the budget multiplier.
-- The multiplier search checks strict Riccati admissibility and the covariance
-  budget simultaneously.
-- A scale-aware upper bracket initializes the search, with bracket expansion
-  retained as numerical protection.
-- A minimum-energy policy provides a nonzero fallback if the requested budget
-  is infeasible or a numerical search cannot certify another policy.
-- The accelerated implementations preserve the public function interfaces and
-  automatically fall back to the reference implementations for unsupported
-  dimensions or when Numba is unavailable.
-- Small floating-point differences between the accelerated and reference paths
-  can occur because matrix operations are evaluated in a different order.
-
-## Reproducibility
-
-Random seeds and experiment parameters are specified directly in the final
-cells of the notebooks. To reproduce a reported figure, run the notebook from
-top to bottom without changing these values.
-
-For a paper or archival reference, link to a tagged GitHub release or a
-permanent commit rather than the repository’s moving default branch.
-
 ## Citation
 
 If you use this code, please cite the associated paper:
 
 ```bibtex
-@misc{bencherki2026optimal,
+@article{bencherki2026optimal,
   title  = {Optimal Input Design via Frank--Wolfe},
   author = {Bencherki, Fethi and Lee, Bruce and Matni, Nikolai and Rantzer, Anders},
+  journal={arXiv preprint arXiv:},
   year   = {2026},
-  note   = {Preprint}
 }
 ```
 
-Once the paper is publicly available, replace the preprint note with its arXiv
-identifier, DOI, or final publication information.
