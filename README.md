@@ -51,7 +51,7 @@ python -m pip install numba tikzplotlib
 |---|---|
 | A | Frank–Wolfe covariance design for several energy budgets |
 | B | Frank–Wolfe, certainty equivalence, naive exploration, and frequency-based periodic inputs |
-| C | Frank–Wolfe implicit dual control, certainty-equivalent naive exploration, and sampling-based gain perturbation |
+| C | Frank–Wolfe implicit dual control, certainty-equivalent naive exploration, and sampling-based gain perturbation baseline |
 
 The competing methods in a Monte Carlo trial use shared process-noise
 realizations where applicable, allowing paired comparisons under the same
