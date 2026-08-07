@@ -68,9 +68,6 @@ Running the complete notebooks generates the following TikZ/PGFPlots files:
 | B | `tikz_figures/system_id_cost_mc.tex` |
 | C | `tikz_figures/experiment_c_cumulative_regret.tex` |
 
-The shaded regions in the Monte Carlo figures represent percentile bands. The
-legends identify the compared methods without separate entries for the shaded
-bands.
 
 ## Implementation Notes
 
