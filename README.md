@@ -7,20 +7,20 @@ This repository contains the numerical experiments illustrating the paper’s Fr
 ## Repository Contents
 
 - 📘 **Experiment A — Budget-Constrained Input Design**  
-  [`Experiment A - organized.ipynb`](<Experiment A.ipynb>)  
+  [`Experiment A.ipynb`](<Experiment A.ipynb>)  
   Applies Frank–Wolfe to a known finite-horizon linear system. The experiment
   solves the covariance-design problem for several budget values and plots the
   objective across Frank–Wolfe iterations.
 
 - 📗 **Experiment B — Adaptive System Identification**  
-  [`Experiment B - organized.ipynb`](<Experiment B.ipynb>)  
+  [`Experiment B.ipynb`](<Experiment B.ipynb>)  
   Repeatedly estimates an unknown linear system and designs the next
   experiment using the current estimate. It compares Frank–Wolfe with
   certainty equivalence, naive exploration, and a frequency-based periodic
   input baseline under a common covariance budget.
 
 - 📙 **Experiment C — Adaptive Online LQR**  
-  [`Experiment C - organized.ipynb`](<Experiment C.ipynb>)  
+  [`Experiment C.ipynb`](<Experiment C.ipynb>)  
   Studies control-oriented experiment design in an online LQR problem. It
   compares Frank–Wolfe implicit dual control with certainty-equivalent naive
   exploration and sampling-based gain perturbation, reporting cumulative
