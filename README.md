@@ -32,19 +32,6 @@ separate from the optional Numba acceleration cells.
 
 ## Installation
 
-Clone the repository, create a virtual environment, and install the required
-packages:
-
-```bash
-git clone <repository-url>
-cd <repository-directory>
-
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install numpy scipy matplotlib jupyterlab
-```
-
 Optional packages for acceleration and figure export are:
 
 ```bash
