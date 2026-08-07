@@ -1,8 +1,0 @@
-mode=old seeds=[17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
-config: {"T": 5000, "K_episodes": 20, "tau_alpha": 1.7, "noise_std": 0.3, "probe_horizon": 50, "sigma_probe": 1.0, "noise_std_prior": 0.4, "M_fw": 400, "fw_sampling": "uniform", "beta_explore_scale": 1.0, "beta_finite_horizon_ce": false, "ridge_lambda": 0.0, "paper_interval_weights": false, "exclusive_moments": false, "lmo_start_state_cov": false, "robust_lmo": false, "s_tol": -1e-09, "naive_explore_scale": 0.1, "samp_n_candidates": 30, "samp_sigma": 0.1}
-seed 17 done (1/20) 1616s | fw final=6.89 | naive final=13.3 | sampling final=7.35
-seed 18 done (2/20) 1610s | fw final=9.46 | naive final=15.8 | sampling final=9.88
-seed 19 done (3/20) 1615s | fw final=1.19 | naive final=7.68 | sampling final=1.76
-seed 20 done (4/20) 1617s | fw final=3.15 | naive final=9.57 | sampling final=3.66
-seed 21 done (5/20) 1612s | fw final=15.2 | naive final=21.8 | sampling final=15.8
-seed 22 done (6/20) 1611s | fw final=27.2 | naive final=33.7 | sampling final=27.7
