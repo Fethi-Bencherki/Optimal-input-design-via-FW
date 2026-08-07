@@ -45,26 +45,6 @@ python -m pip install numba tikzplotlib
   It is required by the export command in Experiment A and is handled as an
   optional dependency in Experiments B and C.
 
-## Running the Notebooks
-
-Start JupyterLab from the repository directory:
-
-```bash
-jupyter lab
-```
-
-Open an organized notebook and select **Run All**. The final cell of each
-notebook contains the experiment configuration, including the horizon, budget,
-number of Frank–Wolfe iterations, Monte Carlo seeds, and output paths.
-
-Experiment A is a single budget sweep. Experiments B and C run several Monte
-Carlo trials and may take longer. Experiment C uses process-based parallelism
-by default; on systems where this is unavailable, run:
-
-```python
-main_multiple_runs(num_trials=4, parallel=False)
-```
-
 ## Compared Methods
 
 | Experiment | Methods |
