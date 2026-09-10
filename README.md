@@ -1,6 +1,9 @@
 # Optimal Input Design via Frank–Wolfe
 
-Jupyter Notebook examples associated with the paper **“Optimal Input Design via Frank–Wolfe”** by Fethi Bencherki, Bruce Lee, Nikolai Matni, and Anders Rantzer. The public arXiv link will be added here when the paper is posted.
+Jupyter Notebook examples associated with the paper **“Optimal Input Design via Frank–Wolfe”** by Fethi Bencherki, Bruce Lee, Nikolai Matni, and Anders Rantzer.
+
+The paper is available on arXiv: [arXiv:2609.08751](https://arxiv.org/abs/2609.08751).
+
 
 This repository contains the numerical experiments illustrating the paper’s Frank–Wolfe framework for optimal input design in finite-horizon linear systems, including covariance design with known dynamics, experiment design with unknown dynamics, and adaptive online LQR balancing exploration and exploitation.
 
